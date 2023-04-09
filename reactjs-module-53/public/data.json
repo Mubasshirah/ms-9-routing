@@ -1,0 +1,37 @@
+[ 
+    {   
+         "id": 1,  
+         "name": "Basic",    
+         "pprice":80,
+         "features": [      
+            "5 GB of storage",      
+            "1 user account",      
+            "Limited customer support"    
+        ]
+  },
+  {
+    "id": 2,
+    "name": "Standard",
+    "pprice":180,
+    "features": [
+      "10 GB of storage",
+      "5 user accounts",
+      "Email support",
+      "5 user accounts",
+      "Email support"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium",
+    "pprice":280,
+    "features": [
+      "20 GB of storage",
+      "Unlimited user accounts",
+      "24/7 customer support",
+      "20 GB of storage",
+      "Unlimited user accounts",
+      "24/7 customer support"
+    ]
+  }
+]
