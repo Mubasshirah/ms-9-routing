@@ -1,0 +1,10 @@
+1.component->route->link
+
+2.load date
+   route
+   nested route
+   dynamic route
+3.load data in children
+4.loading
+5.active link
+6.404
