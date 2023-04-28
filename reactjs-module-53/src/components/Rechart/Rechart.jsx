@@ -6,7 +6,8 @@ import {
     YAxis,
   
     Tooltip,
-    Legend
+    Legend,
+    ResponsiveContainer
   } from "recharts";
   import { PieChart, Pie } from "recharts";
 const Rechart = () => {
@@ -31,7 +32,8 @@ const Rechart = () => {
       ];
       
     return (
-        <div>
+        <div className=''>
+            <ResponsiveContainer width="100%" height={400}>
             <LineChart
              width={1000}
              height={300}
@@ -45,6 +47,8 @@ const Rechart = () => {
 <Line type="monotone" dataKey="chemistry" stroke="#82ca9d" />
 <Line type="monotone" dataKey="math" stroke="#82ca9d" />
             </LineChart>
+
+            </ResponsiveContainer>
 
 
             <PieChart width={400} height={400}>

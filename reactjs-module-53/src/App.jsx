@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import PriceSec from './components/PriceSec/PriceSec'
 import Rechart from './components/Rechart/Rechart'
+import PhoneHunter from './components/PhoneHunter/PhoneHunter'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
    <h1 className='text-center text-9xl'>helo there</h1>
    <PriceSec></PriceSec>
    <Rechart></Rechart>
+   <PhoneHunter></PhoneHunter>
 
     </div>
   )

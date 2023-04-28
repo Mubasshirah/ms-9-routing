@@ -1,0 +1,20 @@
+1.react toast
+2.conditional rendering
+             ->if else
+             ->ternary operator
+             ->logical &&
+             ->logical ||
+             ->conditional css class
+                   ->use ternary
+                   ->ternary inside template string
+                   exmple:
+                    <h2 className={cart.length>=2 ? 'blue':'red'}>conditional css with ternary </h2>
+            <h2 className={`bold ${cart.length>=3 ? 'red':'purple'}`}>conditional css with ternary inside template string </h2>
+
+3.Prop Drilling to pass data to a many level components
+->context api to avoid prop drilling
+  image(1-3)
+
+  4.interview qn:
+     image-4
+     custom hook:image-5,image-6

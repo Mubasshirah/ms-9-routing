@@ -1,11 +1,11 @@
 import React from 'react';
-
-const Contact = () => {
+import './About.css'
+const About = () => {
     return (
         <div>
-            404 not found
+            
         </div>
     );
 };
 
-export default Contact;
+export default About;
